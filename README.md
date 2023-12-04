@@ -1,10 +1,14 @@
 # Compiler-and-Interpreter-for-SimplanPlus
 
 The delivery contains 4 main points to follow for completion:
-- lexical analysis that returns the list of lexical errors in an output file;
-- development of the program's Symbol Table and checking of undeclared identifiers/functions and identifiers/functions declared multiple times in the same environment;
-- development of a semantic analysis that verifies both the correctness of the types such as number and type of current parameter if they are conform to the formal ones and use of uninitialized variables, assuming that the functions never access the global variables;
-- implementation of the SimpLanPlus interpreter.
+- lexical analysis that returns the list of lexical errors in an output file (*out/errors.txt*);
+- development of the program's Symbol Table and checking of:
+    - undeclared identifiers/functions;
+    - identifiers/functions declared multiple times in the same environment.
+- development of a semantic analysis that:
+    - verifies the correctness of the types, such as if the number and types of actual parameters correspong to the formal ones
+    - checks the usage of uninitialized variables, assuming that functions never access global variables;
+- implementation of the interpreter.
 
 ## Description of SimplanPlus
 
