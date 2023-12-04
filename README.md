@@ -19,9 +19,10 @@ SimpLanPlus is a simple imperative language based on [ANTLR4](https://github.com
     - a single expressions *Exp*;
     - a concatenation of declarations, statements and possible expressions { *Dec+; Stm*; Exp?* };
 - declarations of variables/functions are of the form: *type ID* (without initialization);
+- statements are sequences of commands (a program or the body of a function can be stm or dec stm);
+- expressions are usual operations (>, ≥, <, ≤, ==) and logical operations (&&, ||, !); 
 - functions can be recursive (but not mutually);
-- there are commands (a program or the body of a function can be stm or dec stm);
-- function bodies are of the type *{ stm; exp }* and in this case the function, after evaluating stm, returns the value of exp;
+- function bodies are of the type *{ Stm; Exp }* and in this case the function, after evaluating Stm, returns the value of Exp;
 - types also include the *void* type.
 
 
