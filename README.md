@@ -1,16 +1,16 @@
 # Compiler-and-Interpreter-for-SimplanPlus
 
-Implementation of a parser, a compiler and an interpreter for a programming language called “SimplanPlus” which is based on ANTLR.
+Implementation of a parser, a compiler and an interpreter for a programming language called “SimplanPlus” which is based on ANTLR. The program takes as input a file (src/input.simplanplus) which is then analyzed.
 
 The delivery contains 4 main points to follow for completion:
-- lexical analysis that returns the list of lexical errors in an output file (*out/errors.txt*);
+- lexical analysis that returns the list of lexical errors written in an output file (*out/errors.txt*);
 - development of the program's Symbol Table (according to the [ANTLR grammar](https://github.com/LucaSpadoni/Compiler-and-Interpreter-for-SimplanPlus/blob/main/src/SimpLanPlus.g4) used) and checking of:
     - undeclared identifiers/functions;
     - identifiers/functions declared multiple times in the same environment.
 - development of a semantic analysis that:
     - verifies the correctness of the types, such as if the number and types of actual parameters correspong to the formal ones
     - checks the usage of uninitialized variables, assuming that functions never access global variables;
-- implementation of the interpreter.
+- implementation of the interpreter that interpretes the code output of the previous code generation phase.
 
 ## Description of SimplanPlus
 
