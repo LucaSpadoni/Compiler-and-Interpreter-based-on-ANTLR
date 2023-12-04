@@ -16,7 +16,7 @@ The delivery contains 4 main points to follow for completion:
 
 SimpLanPlus is a simple imperative language based on [ANTLR4](https://github.com/antlr/antlr4), in which:
 - programs are composed of:
-    - single expressions *Exp*;
+    - a single expressions *Exp*;
     - a concatenation of declarations, statements and possible expressions { *Dec+; Stm*; Exp?* };
 - declarations of variables/functions are of the form: *type ID* (without initialization);
 - functions can be recursive (but not mutually);
