@@ -8,9 +8,9 @@ The delivery contains 4 main points to follow for completion:
     - undeclared identifiers/functions;
     - identifiers/functions declared multiple times in the same environment.
 - development of a semantic analysis that:
-    - verifies the correctness of the types, such as if the number and types of actual parameters correspong to the formal ones
-    - checks the usage of uninitialized variables, assuming that functions never access global variables;
-- implementation of the interpreter that interpretes the code output of the previous code generation phase.
+    - verifies the correctness of the types, in particular if the number and types of the actual parameters of a function correspond to the formal ones;
+    - checks the usage of uninitialized variables, assuming that functions never access global variables.
+- implementation of the interpreter that interpretes the code outputted from the previous code generation phase.
 
 ## Description of SimplanPlus
 
