@@ -2,7 +2,7 @@
 
 The delivery contains 4 main points to follow for completion:
 - lexical analysis that returns the list of lexical errors in an output file (*out/errors.txt*);
-- development of the program's Symbol Table and checking of:
+- development of the program's Symbol Table (according to the [ANTLR grammar](https://github.com/LucaSpadoni/Compiler-and-Interpreter-for-SimplanPlus/blob/main/src/SimpLanPlus.g4) used) and checking of:
     - undeclared identifiers/functions;
     - identifiers/functions declared multiple times in the same environment.
 - development of a semantic analysis that:
