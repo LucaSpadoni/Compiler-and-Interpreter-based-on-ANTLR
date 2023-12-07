@@ -1,4 +1,4 @@
-# Compiler-and-Interpreter-for-SimplanPlus
+# Compiler and Interpreter for SimplanPlus based on ANTLR
 
 Implementation of a parser, a compiler and an interpreter for a programming language called “SimplanPlus” which is based on ANTLR. The program takes as input a file (src/input.simplanplus) which is then analyzed.
 
